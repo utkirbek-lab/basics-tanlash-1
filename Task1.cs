@@ -9,13 +9,13 @@ public static class Task1
 {
     public static string Convert(int x, string str)
     {
-        if (x < str.Length)
+        if (x > str.Length)
         {
-            return str.ToUpper();
+            return str.ToLower();
         }
         else
         {
-            return str.ToLower()
+            return str.ToUpper();
         }
     }
 

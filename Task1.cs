@@ -11,11 +11,11 @@ public static class Task1
     {
         if (x > str.Length)
         {
-            return str.ToLower();
+            return str.ToUpper();
         }
         else
         {
-            return str.ToUpper();
+            return str.ToLower();
         }
     }
 
